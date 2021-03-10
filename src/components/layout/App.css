@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Small devices (small phones) */
+@media only screen and (min-width: 0px) {
+  
+  li {
+    display: inline-block;
+    border: 2px solid gray;
+    /* width: 30vw; */
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: white;
+  }
+
+  li:hover {
+    border: 2px solid blue;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops) */
+@media only screen and (min-width: 1024px) {
+  li {
+    display: inline-block;
+    border: 2px solid gray;
+    width: 1vw;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: white;
+  }
+
+  
+  li:hover {
+    border: 2px solid blue;
+  }
+
+  .active {
+    border: 2px solid yellow;
+  }
+}
+
+.row {
+  /* display: inline-block; */
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+h2 {
+  color: darkblue;
+}

@@ -1,0 +1,30 @@
+
+/* Small devices (small phones) */
+@media only screen and (min-width: 0px) {
+  
+    .cat {
+      display: inline-block;
+      border: 2px solid gray;
+      /* width: 30vw; */
+      padding: 10px;
+      margin: 5px;
+      box-sizing: border-box;
+      list-style: none;
+      background-color: white;
+    }
+  }
+  
+  
+  /* Extra large devices (large laptops and desktops) */
+  @media only screen and (min-width: 1024px) {
+    .cat {
+      display: inline-block;
+      border: 2px solid gray;
+      width: 20vw;
+      padding: 10px;
+      margin: 5px;
+      box-sizing: border-box;
+      list-style: none;
+      background-color: white;
+    }
+  }
